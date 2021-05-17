@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 # 리트코드 125
 s = input("Input>> ")
 
