@@ -13,7 +13,7 @@ endif ()
 set(OUTPUT_ELF test)
 
 set(SRC_FILES
-        1292.cpp
+        10845_queue.cpp
 )
 
 add_executable(${OUTPUT_ELF}
