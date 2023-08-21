@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20 FATAL_ERROR)
-project(test VERSION 1.1 LANGUAGES CXX)
+project(12865 VERSION 1.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -10,10 +10,10 @@ else ()
     set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin/${CMAKE_BUILD_TYPE})
 endif ()
 
-set(OUTPUT_ELF test)
+set(OUTPUT_ELF ${CMAKE_PROJECT_NAME})
 
 set(SRC_FILES
-        10845_queue.cpp
+        ${CMAKE_PROJECT_NAME}.cpp
 )
 
 add_executable(${OUTPUT_ELF}
