@@ -3,3 +3,5 @@
 /BaekJoon/cpp/bin/
 /mnc_ml_test/venv/
 /Programmers/cmake-build-debug/
+/Goorm/build-*
+/Goorm/bin
